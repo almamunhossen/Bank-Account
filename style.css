@@ -79,7 +79,7 @@ input[type="button"]:hover {
   grid-template-columns: 160% 163%;
   grid-gap: 5%;
 }
-.ButonStyle {
+.withdrawDepositStyle {
   padding: 10%;
   border-radius: 5%;
   text-align: center;
@@ -88,14 +88,9 @@ input[type="button"]:hover {
 @media only screen and (max-width: 600px) {
   .contactFrom {
     width: 100%;
-    margin: 5% auto;
-    padding: 0px;
-    margin: 40% auto;
-    background-color: #fff;
   }
 
   #accountSecton {
-    display: grid;
-    grid-template-columns: 100%;
+    width: 100%;
   }
 }
