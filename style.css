@@ -1,0 +1,101 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.comName {
+  text-align: center;
+}
+.contactFrom {
+  width: 40%;
+  margin: 10% auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+input[type="email"],
+select,
+textarea,
+input[type="password"],
+[type="text"] {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type="button"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+input[type="button"]:hover {
+  opacity: 0.8;
+}
+#accountSecton {
+  width: 45%;
+  margin: 0 auto;
+  align-items: center;
+  display: none;
+}
+#continar {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-gap: 5%;
+}
+.bgStyle {
+  background-color: blueviolet;
+  padding: 10%;
+  border-radius: 5%;
+  text-align: center;
+  color: #fff;
+}
+.bgStyle1 {
+  background-color: salmon;
+  padding: 10%;
+  border-radius: 5%;
+  text-align: center;
+  color: #fff;
+}
+.bgStyle2 {
+  background-color: orange;
+  padding: 10%;
+  border-radius: 5%;
+  text-align: center;
+  color: #fff;
+}
+#continarEnter {
+  display: grid;
+  grid-template-columns: 160% 163%;
+  grid-gap: 5%;
+}
+.ButonStyle {
+  padding: 10%;
+  border-radius: 5%;
+  text-align: center;
+  box-shadow: 3px 3px 10px #aaaaaa;
+}
+@media only screen and (max-width: 600px) {
+  .contactFrom {
+    width: 100%;
+    margin: 5% auto;
+    padding: 0px;
+    margin: 40% auto;
+    background-color: #fff;
+  }
+
+  #accountSecton {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
