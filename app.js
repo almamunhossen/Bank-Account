@@ -36,7 +36,7 @@ const withdrowBt = document.getElementById('withdrowBt').addEventListener('click
 
     const withdrawDisplay = document.getElementById('withdrawDisplay').innerText;
     const withdrawDisplayNo = parseFloat(withdrawDisplay);
-    const withdrawBlance = withdrawDisplayNo - withdrowNumber;
+    const withdrawBlance = withdrawDisplayNo + withdrowNumber;
     document.getElementById('withdrawDisplay').innerText = withdrawBlance;
 
     document.getElementById("withdrowAmount").value="";
